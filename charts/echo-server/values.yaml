@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: huseyinbabal/echo-server
+  repository: ghcr.io/huseyinbabal/echo-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "main"
