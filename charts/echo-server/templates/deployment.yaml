@@ -39,12 +39,12 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /actuator/info
+              path: /actuator/health
               port: http
             initialDelaySeconds: 30
           readinessProbe:
             httpGet:
-              path: /actuator/info
+              path: /actuator/health
               port: http
             initialDelaySeconds: 30
           resources:
